@@ -16,7 +16,7 @@ public String getHint(String secret, String guess) {
             if(bucket[i] > 0)
                 cow+= bucket[i];
         }
-        
+        //非常危险，很容易漏掉数据
         cow = secret.length() - cow - bull;
         String res = bull + "A" + cow + "B";
         return res;
