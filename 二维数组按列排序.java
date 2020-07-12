@@ -22,3 +22,7 @@
             }
         });
     }
+
+方法二：
+int[][] relationj = new int[n][n];
+Arrays.sort(relation, (v1, v2) -> v1[0] - v2[0]);  
