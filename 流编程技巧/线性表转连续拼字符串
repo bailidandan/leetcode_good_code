@@ -1,0 +1,4 @@
+//线性表->String[],然后拼接成字符串
+String joins = String.join("", stack.stream().map(String::valueOf).toArray(String[]::new));
+//转int[]类型
+int[] y = stack.stream().mapToInt(Integer::intValue).toArray();
