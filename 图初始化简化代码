@@ -1,0 +1,6 @@
+list = new ArrayList<Set<Integer>>(){
+            {
+                for (int i = 0; i < n; i++) {
+                    add(new HashSet<>());
+                }
+ };
